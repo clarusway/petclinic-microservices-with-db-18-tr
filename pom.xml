@@ -52,6 +52,14 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/io.jenkins.plugins/coverage -->
+            <dependency>
+                <groupId>io.jenkins.plugins</groupId>
+                <artifactId>coverage</artifactId>
+                <version>1.16.1</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
@@ -150,6 +158,7 @@
                         </configuration>
                     </plugin>
                 </plugins>
+
             </build>
 
         </profile>
